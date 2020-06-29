@@ -13,8 +13,13 @@
     "default_popup": "popup.html"
   },
   "options_page": " options.html",
+  "background": {
+    "scripts": ["pageEvent.js"],
+    "persistent": false
+  },
   "permissions":[
     "storage",
-    "notifications"
+    "notifications",
+    "contextMenus"
   ]
 }
